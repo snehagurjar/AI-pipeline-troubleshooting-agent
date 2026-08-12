@@ -1,0 +1,7 @@
+item_ref,warehouse_code,stock_level,reorder_date,supplier_code
+I001,W1,120,2026-03-01,SUP1
+I002,,80,2026-03-02,SUP2
+I003,W2,45,not-a-date,SUP1
+I004,W2,not-a-number,2026-03-04,SUP3
+I005,W3,75,2026-03-05,SUP2
+I001,W1,120,2026-03-01,SUP1

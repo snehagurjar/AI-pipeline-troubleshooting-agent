@@ -1,0 +1,231 @@
+Item_ID,Item_Name,Category,Warehouse,Stock_Quantity,Unit_Price,Reorder_Level,Last_Restocked_Date,Supplier_Code
+INV0189,Gadget,Apparel,WH-East,86,352.32,39,17-11-2026,SUP-Beta
+INV0174,Notebook,Grocery,WH-West,477,296.52,92,2026-12-01,SUP-Beta
+INV0106,Panel,Toys,WH-West,463,N/A,24,2026-10-24,SUP-Alpha
+INV0030,Sensor,Apparel,WH-West,0,105.88,82,2026-08-15,SUP-Beta
+INV0072,Chair,Toys,WH-West,151,170.02,14,2026-11-08,SUP-Epsilon
+INV0081,Cable,Grocery,WH-West,N/A,75.02,84,18/12/2026,SUP-Delta
+INV0048,Puzzle,Toys,WH-South,247,295.2,81,04/04/2026,SUP-Beta
+INV0216,Hammer,Toys,WH-East,-30,N/A,60,13-08-2026,SUP-Delta
+INV0201,Chair,Furnture,WH-North,203,314.66,58,2026/02/13,SUP-Gamma
+INV0178,Hammer,Toys,WH-Central,51609,148.42,15,24/03/2026,SUP-Gamma
+INV0050,Drill,Grocery,WH-South,129,239.39,56,19-11-2026,SUP-Beta
+INV0179,Casing,Apparel,WH-West,three,150.83,19,,SUP-Gamma
+INV0059,Drill,Tools,WH-North,281,-29.51,67,2026/10/21,SUP-Beta
+INV0173,T-Shirt,Toys,WH-Central,-21,347.95,27,2026-05-11,SUP-Epsilon
+INV0137,Casing,Furniture,WH-East,356,55.5,35,2026/09/22,SUP-Beta
+INV0185,Drill,Furniture,WH-West,258,205.16,95,16-03-2026,SUP-Epsilon
+INV0105,Pen Set,Furniture,WH-North,14,50.44,47,05/01/2026,SUP-Delta
+INV0040,Gadget,Toys,WH-South,10,120.03,19,07/08/2026,SUP-Gamma
+INV0122,Puzzle,Stationery,WH-East,47,85.15,24,20/12/2026,SUP-Epsilon
+INV0183,Bracket,Tools,WH-North,59,347.02,58,2026-07-19,SUP-Beta
+INV0042,Adapter,Electronics,WH-East,307,398.32,10,14/11/2026,SUP-Alpha
+INV0073,Rice Bag,Electronics,WH-North,344,131.82,86,2026/11/04,
+INV0104,Desk,Electronics,WH-East,262,-44.31,33,2026-01-12,SUP-Alpha
+INV0166,Panel,Toys,WH-West,153,121.0,54,2026-06-18,SUP-Beta
+INV0159,T-Shirt,Stationery,WH-East,291,250.15,92,2026-08-25,SUP-Delta
+INV0191,Bracket,Tools,WH-North,383,468.23,67,01-12-2026,SUP-Delta
+INV0217,Sensor,Stationery,WH-South,228,18.29,36,2026-07-16,SUP-Alpha
+INV0036,Hammer,Grocary,WH-West,394,348.07,78,01/06/2026,SUP-Delta
+INV0165,Adapter,Furniture,WH-Central,23,342.53,74,02/03/2026,SUP-Alpha
+INV0065,Chair,Stationery,WH-West,436,337.5,45,25-08-2026,SUP-Epsilon
+INV0110,Puzzle,Stationery,WH-South,350,348.0,22,not-a-date,SUP-Delta
+INV0148,Panel,Toys,WH-West,456,434.94,53,31/02/2026,SUP-Epsilon
+INV0091,Rice Bag,Tools,WH-East,-2,86.76,63,2026-02-12,SUP-Alpha
+INV0075,Adapter,Apparel,WH-West,486,473.04,100,14-11-2026,SUP-Delta
+INV0182,Hammer,Electronics,WH-West,327,194.93,19,2026/08/28,SUP-Gamma
+INV0136,Puzzle,Grocery,WH-West,488,74.09,,2026-06-03,SUP-Gamma
+INV0017,Puzzle,Tools,WH-South,111,290.01,100,2026-10-02,SUP-Epsilon
+INV0032,Drill,Apparel,WH-North,453,98.02,68,05-11-2026,SUP-Alpha
+INV0055,Desk,Tools,WH-East,252,299.42,99,09-01-2026,SUP-Beta
+INV0186,Adapter,Stationery,WH-South,86,283.26,68,04-10-2026,SUP-Gamma
+INV0149,Pen Set,Electronics,WH-Central,65,112.12,,,SUP-Gamma
+INV0008,T-Shirt,Apparel,WH-West,239,485.57,6,04/11/2026,SUP-Gamma
+INV0207,T-Shirt,Tools,WH-North,61,451.07,71,2026-02-13,SUP-Gamma
+INV0129,Cable,Furniture,WH-West,173,183.44,82,17-01-2026,SUP-Alpha
+INV0157,Drill,Furniture,WH-South,122,387.98,73,10/05/2026,SUP-Epsilon
+INV0179,Casing,Apparel,WH-West,three,150.83,19,,SUP-Gamma
+INV0011,Bracket,Toys,WH-South,-31,83.4,82,2026/09/07,SUP-Gamma
+INV0100,Sensor,Furniture,WH-West,70,148.6,69,27-12-2026,SUP-Gamma
+INV0002,Widget,Apparel,WH-Central,229,404.91,,23/07/2026,SUP-Gamma
+INV0194,Chair,Electronics,WH-East,ten,N/A,97,08-07-2026,
+INV0067,Pen Set,Grocery,WH-Central,349,85.82,53,2026/08/08,SUP-Beta
+INV0140,Sensor,Tools,WH-East,4,301.79,47,2026-09-21,SUP-Beta
+INV0069,Desk,Furniture,WH-West,three,287.83,42,,SUP-Delta
+INV0188,Bracket,Grocery,WH-North,121,369.07,95,2026/03/14,SUP-Beta
+INV0162,Puzzle,Apparel,WH-North,140,144.06,94,26-03-2026,SUP-Alpha
+INV0092,Rice Bag,Apparel,WH-East,113,84.9,19,07/06/2026,SUP-Beta
+INV0192,Pen Set,Toys,WH-Central,495,106.71,41,2026-03-19,SUP-Gamma
+INV0200,Widget,Stationery,WH-South,429,183.34,65,25-02-2026,SUP-Epsilon
+INV0134,Puzzle,Stationery,WH-West,160,230.37,74,25/12/2026,SUP-Epsilon
+INV0133,Notebook,Grocery,WH-South,396,236.33,98,not-a-date,SUP-Beta
+INV0218,Rice Bag,Furniture,WH-Central,410,10.75,96,18/08/2026,SUP-Epsilon
+INV0143,Chair,Stationery,WH-Central,,346.69,20,06/07/2026,SUP-Alpha
+INV0093,Panel,Stationery,WH-Central,99751,89.4,68,2026-10-19,SUP-Epsilon
+INV0063,Casing,Tools,WH-West,397,159.77,53,2026/11/22,SUP-Delta
+INV0051,Desk,Electronics,WH-North,213,395.58,71,2026-05-15,SUP-Gamma
+INV0142,Rice Bag,Toys,WH-East,five,71.17,36,,SUP-Delta
+INV0160,Pen Set,Furniture,WH-Central,469,495.17,72,,SUP-Alpha
+INV0031,Sensor,Tools,WH-Central,317,409.39,91,2026/04/26,SUP-Alpha
+INV0039,Hammer,Stationery,WH-West,487,126.88,7,2026/06/02,SUP-Alpha
+INV0189,Gadget,Apparel,WH-East,86,352.32,39,17-11-2026,SUP-Beta
+INV0116,Hammer,Stationery,WH-North,271,157.88,19,,SUP-Beta
+INV0121,Gadget,Toys,WH-South,82,354.96,71,28/02/2026,SUP-Beta
+INV0172,Pen Set,Stationery,WH-West,100,68.61,,2026-10-27,SUP-Gamma
+INV0220,Adapter,Stationery,WH-North,485,423.41,50,2026/03/28,SUP-Beta
+INV0025,Adapter,Toys,WH-South,12,462.32,57,2026/12/28,SUP-Gamma
+INV0153,Desk,Stationery,WH-Central,466,339.7,11,2026-11-21,SUP-Epsilon
+INV0152,Gadget,Furniture,WH-East,469,160.13,91,2026/05/08,SUP-Epsilon
+INV0119,Cable,Furniture,WH-South,13,286.57,75,03/02/2026,SUP-Delta
+INV0007,Adapter,Tools,WH-East,219,200.3,22,03-01-2026,SUP-Beta
+INV0095,Hammer,Grocary,WH-East,39,488.71,81,15-10-2026,SUP-Delta
+INV0150,Puzzle,Grocery,WH-South,177,95.05,19,,SUP-Delta
+INV0204,Pen Set,Apparel,WH-East,64,436.86,20,2026-06-01,SUP-Gamma
+INV0168,Hammer,Grocery,WH-Central,221,293.35,84,08-12-2026,SUP-Alpha
+INV0124,Rice Bag,Stationery,WH-North,77238,102.81,45,11/12/2026,SUP-Delta
+INV0056,Widget,Toys,WH-East,390,235.78,40,2026-07-19,SUP-Alpha
+INV0004,Pen Set,Apparel,WH-North,,145.4,34,2026-05-13,SUP-Gamma
+INV0117,Rice Bag,Apparel,WH-East,109,143.5,67,2026-02-05,SUP-Beta
+INV0177,Gadget,Apparel,WH-West,169,215.8,,2026/12/17,SUP-Delta
+INV0077,Cable,Toys,WH-North,328,485.58,,2026/10/05,SUP-Alpha
+INV0180,Sensor,Tools,WH-South,169,479.27,56,2026-11-06,
+INV0012,Pen Set,Grocery,WH-West,-15,N/A,,19-04-2026,SUP-Alpha
+INV0071,Gadget,Stationery,WH-North,374,-91.05,58,05/09/2026,SUP-Epsilon
+INV0131,Puzzle,Grocery,WH-East,8,337.23,79,24-12-2026,SUP-Epsilon
+INV0193,Gadget,Electronics,WH-West,,79.83,59,23/03/2026,SUP-Beta
+INV0109,Gadget,Tools,WH-East,8,34.71,89,25/10/2026,SUP-Beta
+INV0120,Drill,Apparel,WH-West,37,"6194,82",64,2026/03/12,SUP-Beta
+INV0022,Casing,Tools,WH-East,128,423.21,59,02/01/2026,SUP-Beta
+INV0044,Puzzle,Toys,WH-West,303,426.0,16,2026-04-15,SUP-Epsilon
+INV0118,Hammer,Electronics,WH-East,363,N/A,43,2026/12/23,SUP-Gamma
+INV0014,T-Shirt,Furniture,WH-West,210,364.81,87,13/12/2026,SUP-Alpha
+INV0206,Widget,Electronics,WH-North,241,460.19,9,2026-12-23,SUP-Beta
+INV0190,T-Shirt,Electronics,WH-South,67,355.99,91,05/10/2026,SUP-Delta
+INV0141,Hammer,Stationery,WH-North,374,129.38,99,2026/10/10,SUP-Beta
+INV0199,Desk,Furniture,WH-Central,200,28.23,35,2026-04-04,SUP-Epsilon
+INV0005,Pen Set,Furniture,WH-North,87,123.16,39,2026/12/21,SUP-Gamma
+INV0103,Action Figure,Apparel,WH-South,410,436.63,,12-09-2026,SUP-Epsilon
+INV0219,Rice Bag,Stationery,WH-East,15,389.49,,2026/06/17,SUP-Beta
+INV0171,Puzzle,Furniture,WH-South,86,-30.81,13,09/07/2026,SUP-Delta
+INV0021,Action Figure,Electronics,WH-Central,339,$454,19,2026/09/24,SUP-Gamma
+INV0195,Drill,Electronics,WH-South,227,,20,2026/12/14,SUP-Delta
+INV0205,Chair,Tools,WH-North,261,250.31,52,25-02-2026,SUP-Beta
+INV0098,Puzzle,Tools,WH-East,336,301.75,15,05/06/2026,SUP-Delta
+INV0084,Cable,Tools,WH-South,300,281.28,57,22-07-2026,SUP-Gamma
+INV0074,Puzzle,Stationery,WH-South,325,454.78,57,02/01/2026,SUP-Delta
+INV0111,Casing,Electronics,WH-North,158,494.57,37,,SUP-Beta
+INV0161,Gadget,Toys,WH-South,118,N/A,32,2026-01-12,
+INV0062,Widget,Stationery,WH-Central,337,75.15,49,2026-09-25,SUP-Delta
+INV0107,Adapter,Stationery,WH-South,406,32.34,68,2026/11/01,SUP-Beta
+INV0132,Adapter,Tolls,WH-West,322,387.53,92,19-12-2026,
+INV0211,Panel,Tools,WH-North,31,482.14,38,26/07/2026,SUP-Gamma
+INV0070,Gadget,Apparel,WH-East,117,176.81,84,2026/12/25,SUP-Alpha
+INV0169,Rice Bag,Tools,WH-South,162,46.67,61,2026/02/09,SUP-Alpha
+INV0181,Casing,Grocery,WH-West,,139.89,13,2026/09/26,SUP-Gamma
+INV0130,Notebook,Toys,WH-West,83784,-93.21,55,24/05/2026,SUP-Epsilon
+INV0138,T-Shirt,Stationery,WH-North,70,,25,2026/08/16,SUP-Gamma
+INV0053,Drill,Stationery,WH-East,359,36.52,38,2026/10/21,SUP-Delta
+INV0114,T-Shirt,Furniture,WH-East,372,176.93,40,26-01-2026,SUP-Delta
+INV0154,T-Shirt,Grocery,WH-West,275,424.82,95,2026-01-15,SUP-Delta
+INV0108,Widget,Apparel,WH-Central,340,262.22,72,26-09-2026,SUP-Delta
+INV0113,Action Figure,Stationery,WH-West,TBD,91.05,18,31/02/2026,SUP-Gamma
+INV0099,Bracket,Stationery,WH-East,343,473.61,72,22/07/2026,SUP-Alpha
+INV0013,Gadget,Furnture,WH-North,36,139.96,74,2026-10-19,SUP-Beta
+INV0163,Adapter,Furniture,WH-East,136,40.43,63,23/04/2026,SUP-Alpha
+INV0028,Notebook,Grocery,WH-Central,-37,23.15,71,2026/11/18,SUP-Gamma
+INV0066,Desk,Furniture,WH-West,389,436.42,93,01/01/2026,SUP-Alpha
+INV0090,Rice Bag,Apparel,WH-Central,342,36.97,10,15/02/2026,SUP-Epsilon
+INV0018,Action Figure,Furnture,WH-Central,ten,N/A,35,19-04-2026,SUP-Epsilon
+INV0064,Panel,Apparel,WH-East,447,50.76,6,2026/11/14,SUP-Alpha
+INV0054,Adapter,Tools,WH-East,36,N/A,81,2026-05-19,SUP-Alpha
+INV0068,Chair,Grocery,WH-North,238,339.13,61,2026-05-19,SUP-Gamma
+INV0003,Notebook,Electronics,WH-North,176,403.76,73,13/02/2026,SUP-Epsilon
+INV0115,Sensor,Electronics,WH-Central,224,,87,13-10-2026,SUP-Epsilon
+INV0086,Puzzle,Electronics,WH-East,,381.44,49,,SUP-Beta
+INV0023,Chair,Furniture,WH-Central,287,,93,18/01/2026,SUP-Epsilon
+INV0043,Notebook,Electronics,WH-West,zero,414.52,60,17/11/2026,SUP-Epsilon
+INV0156,Bracket,Furniture,WH-Central,286,105.24,43,2026/04/01,SUP-Alpha
+INV0089,Desk,Electronics,WH-Central,N/A,106.41,37,2026-01-04,SUP-Delta
+INV0061,Drill,Furniture,WH-South,471,373.4,13,26/07/2026,SUP-Epsilon
+INV0020,Cable,Electronics,WH-Central,477,35.33,41,27/09/2026,SUP-Epsilon
+INV0209,Puzzle,Toys,WH-South,,117.27,93,2026-01-11,SUP-Gamma
+INV0196,Rice Bag,Electronics,WH-North,zero,69.43,22,22-03-2026,SUP-Epsilon
+INV0128,Pen Set,Toys,WH-North,291,181.9,54,25/09/2026,SUP-Epsilon
+INV0027,Bracket,Toys,WH-Central,431,469.68,38,09-01-2026,SUP-Epsilon
+INV0180,Sensor,Tools,WH-South,169,479.27,56,2026-11-06,
+INV0214,Rice Bag,Apparel,WH-East,89,,62,18-04-2026,SUP-Delta
+INV0176,Rice Bag,Apparel,WH-West,404,351.12,81,2026/02/03,SUP-Gamma
+INV0008,T-Shirt,Apparel,WH-West,239,485.57,6,04/11/2026,SUP-Gamma
+INV0047,Pen Set,Grocery,WH-East,381,176.55,44,2026/12/04,SUP-Gamma
+INV0009,T-Shirt,Furniture,WH-East,390,456.4,43,2026/10/17,SUP-Beta
+INV0146,Drill,Electronics,WH-West,232,-42.13,76,26-05-2026,SUP-Delta
+INV0101,Panel,Apparel,WH-South,354,404.71,61,not-a-date,SUP-Gamma
+INV0147,Widget,Tools,WH-North,,32.82,13,16/01/2026,SUP-Delta
+INV0210,Action Figure,Furniture,WH-North,72,47.42,71,12-08-2026,SUP-Epsilon
+INV0203,Adapter,Electronics,WH-West,-40,155.34,99,2026/12/01,SUP-Alpha
+INV0033,Adapter,Furniture,WH-Central,285,424.32,64,18/10/2026,SUP-Delta
+INV0076,Chair,Electronics,WH-South,486,181.98,52,21-06-2026,SUP-Delta
+INV0079,Widget,Furnture,WH-South,8,27.15,72,2026-08-03,SUP-Gamma
+INV0097,Hammer,Grocery,WH-Central,74435,194.32,91,26/11/2026,SUP-Alpha
+INV0175,Desk,Toys,WH-West,71,121.77,96,2026-02-13,SUP-Epsilon
+INV0187,Pen Set,Apparel,WH-North,225,494.9,88,2026-01-10,SUP-Gamma
+INV0058,Notebook,Electronics,WH-West,422,329.17,57,not-a-date,SUP-Epsilon
+INV0092,Rice Bag,Apparel,WH-East,113,84.9,19,07/06/2026,SUP-Beta
+INV0152,Gadget,Furniture,WH-East,469,160.13,91,2026/05/08,SUP-Epsilon
+INV0144,Desk,Stationery,WH-South,244,374.12,58,2026/09/16,SUP-Beta
+INV0207,T-Shirt,Tools,WH-North,61,451.07,71,2026-02-13,SUP-Gamma
+INV0082,Action Figure,Stationery,WH-Central,406,426.54,75,2026-07-07,SUP-Beta
+INV0167,Bracket,Apparel,WH-East,unknown,38.93,83,13-06-2026,SUP-Gamma
+INV0125,Pen Set,Apparel,WH-East,62,124.71,42,2026-10-28,SUP-Beta
+INV0164,Gadget,Electronics,WH-West,28,351.72,60,11-10-2026,SUP-Epsilon
+INV0112,Gadget,Toys,WH-East,-24,200.61,54,2026-08-06,SUP-Gamma
+INV0041,Cable,Toys,WH-East,five,288.32,53,23-04-2026,SUP-Epsilon
+INV0035,Bracket,Tools,WH-East,457,70.05,93,2026-02-07,SUP-Delta
+INV0202,Bracket,Apparel,WH-South,200,381.85,87,not-a-date,SUP-Delta
+INV0078,Puzzle,Furniture,WH-South,75,298.39,23,2026/05/18,SUP-Alpha
+INV0087,Rice Bag,Electronics,WH-North,ten,227.37,44,25-10-2026,SUP-Alpha
+INV0026,Cable,Grocery,WH-West,418,175.48,34,2026-04-22,SUP-Gamma
+INV0198,Cable,Apparel,WH-East,161,124.65,36,20/12/2026,SUP-Alpha
+INV0102,Adapter,Grocery,WH-West,122,404.5,29,2026-08-19,SUP-Gamma
+INV0170,Hammer,Apparel,WH-West,five,47.44,46,2026-05-01,SUP-Delta
+INV0197,Sensor,Grocery,WH-South,77,308.42,32,31/02/2026,SUP-Alpha
+INV0096,Casing,Stationery,WH-Central,54054,405.67,96,31/02/2026,SUP-Beta
+INV0019,Action Figure,Stationery,WH-South,160,198.5,43,25-02-2026,SUP-Delta
+INV0094,Notebook,Toys,WH-East,54475,316.06,80,not-a-date,SUP-Epsilon
+INV0212,Adapter,Electronics,WH-South,299,$59,64,04/09/2026,SUP-Beta
+INV0029,Notebook,Apparel,WH-North,153,333.78,94,2026-04-05,SUP-Delta
+INV0091,Rice Bag,Tools,WH-East,-2,86.76,63,2026-02-12,SUP-Alpha
+INV0181,Casing,Grocery,WH-West,,139.89,13,2026/09/26,SUP-Gamma
+INV0151,Widget,Furniture,WH-North,228,351.94,,2026/08/13,SUP-Epsilon
+INV0038,Panel,Apparel,WH-West,339,,22,06/01/2026,SUP-Delta
+INV0213,Hammer,Stationery,WH-North,94961,352.65,32,11-03-2026,SUP-Beta
+INV0016,Adapter,Furniture,WH-West,205,83.15,,26/08/2026,SUP-Delta
+INV0083,Hammer,Grocery,WH-North,160,187.78,65,not-a-date,SUP-Alpha
+INV0046,Bracket,Furniture,WH-West,123,323.31,7,2026/07/08,SUP-Gamma
+INV0184,Puzzle,Tools,WH-South,250,94.36,84,not-a-date,SUP-Gamma
+INV0088,Gadget,Tools,WH-West,248,207.68,70,14/02/2026,SUP-Epsilon
+INV0034,Action Figure,Grocery,WH-Central,81,237.86,36,2026-09-09,SUP-Beta
+INV0052,Gadget,Apparel,WH-North,106,133.06,35,03-03-2026,SUP-Delta
+INV0158,Hammer,Electronics,WH-West,163,185.98,77,24-03-2026,SUP-Gamma
+INV0085,Pen Set,Electronics,WH-South,81600,55.0,52,2026/10/09,SUP-Delta
+INV0001,Cable,Electronics,WH-South,377,$384,16,02-01-2026,SUP-Beta
+INV0123,Widget,Electronis,WH-Central,107,208.88,68,18/05/2026,SUP-Delta
+INV0135,Adapter,Stationery,WH-South,152,352.75,67,12/09/2026,SUP-Gamma
+INV0006,Gadget,Furniture,WH-East,33,471.51,45,2026-07-16,SUP-Beta
+INV0057,T-Shirt,Stationery,WH-North,168,248.24,56,2026-01-18,SUP-Alpha
+INV0155,Panel,Grocery,WH-South,40,423.72,97,2026-05-02,SUP-Epsilon
+INV0060,Widget,Apparel,WH-South,467,"2924,82",68,10/09/2026,SUP-Delta
+INV0015,Casing,Apparel,WH-West,236,461.71,75,21-09-2026,SUP-Alpha
+INV0024,T-Shirt,Furnture,WH-East,407,20.91,92,2026-06-04,SUP-Epsilon
+INV0010,Sensor,Apparel,WH-Central,306,10.72,44,08-10-2026,SUP-Alpha
+INV0126,Sensor,Toys,WH-Central,97,249.63,68,16-01-2026,SUP-Delta
+INV0045,Rice Bag,Stationery,WH-East,108,129.92,81,09-09-2026,SUP-Epsilon
+INV0080,Cable,Grocery,WH-Central,,433.62,63,2026-01-01,SUP-Delta
+INV0139,Gadget,Toys,WH-Central,378,468.4,27,27-03-2026,SUP-Delta
+INV0127,Adapter,Furniture,WH-North,unknown,421.58,41,2026-02-28,SUP-Beta
+INV0208,Desk,Stationery,WH-West,,282.34,84,2026-10-12,SUP-Beta
+INV0215,Panel,Electronis,WH-South,-26,315.52,79,27-02-2026,SUP-Alpha
+INV0049,Desk,Electronics,WH-South,498,N/A,21,25-08-2026,SUP-Alpha
+INV0146,Drill,Electronics,WH-West,232,-42.13,76,26-05-2026,SUP-Delta
+INV0037,T-Shirt,Apparel,WH-Central,459,110.49,8,2026-11-22,SUP-Beta
+INV0145,Bracket,Apparel,WH-East,TBD,"9972,64",73,2026-09-11,SUP-Alpha

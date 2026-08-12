@@ -1,0 +1,6 @@
+transaction_ref,account_class,amount_value,transaction_date,state
+T001,A,1200.5,2026-02-01,posted
+T002,B,450.0,2026-02-02,posted
+T003,A,800.75,2026-02-03,pending
+T004,C,2300.0,2026-02-04,posted
+T005,B,975.25,2026-02-05,posted

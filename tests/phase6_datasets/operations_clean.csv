@@ -1,0 +1,6 @@
+operation_ref,process_code,duration_minutes,scheduled_for,completed
+O001,P1,35.0,2026-05-01,True
+O002,P2,42.0,2026-05-02,True
+O003,P1,28.0,2026-05-03,True
+O004,P3,51.0,2026-05-04,False
+O005,P2,39.0,2026-05-05,True

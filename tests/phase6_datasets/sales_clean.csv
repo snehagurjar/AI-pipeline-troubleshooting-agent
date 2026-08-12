@@ -1,0 +1,6 @@
+order_ref,channel,amount,ordered_at,completed
+S001,web,1200.0,2026-01-01,True
+S002,store,850.0,2026-01-02,True
+S003,web,430.0,2026-01-03,False
+S004,partner,910.0,2026-01-04,True
+S005,store,670.0,2026-01-05,True

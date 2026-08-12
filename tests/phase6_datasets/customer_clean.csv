@@ -1,0 +1,6 @@
+profile_ref,segment_code,engagement_score,registered_on,subscribed
+C001,A,82.0,2026-04-01,True
+C002,B,74.0,2026-04-02,False
+C003,A,91.0,2026-04-03,True
+C004,C,65.0,2026-04-04,True
+C005,B,88.0,2026-04-05,False

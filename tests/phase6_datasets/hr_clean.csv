@@ -1,0 +1,6 @@
+employee_ref,department_code,joining_date,compensation,performance_score
+E001,ENG,2025-01-01,50000,4.2
+E002,HR,2025-02-01,62000,3.8
+E003,FIN,2025-03-01,58000,4.5
+E004,OPS,2025-04-01,54000,3.9
+E005,ENG,2025-05-01,61000,4.1
