@@ -19,43 +19,59 @@
 
 
 /* ============================================================
-   BASE
+   STREAMLIT DEFAULT UI — HIDE TOP HEADER / MENU / FOOTER
+   ============================================================ */
+
+/* Hide Streamlit top header */
+header[data-testid="stHeader"] {
+    display: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+}
+
+/* Hide Streamlit toolbar */
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+/* Hide default menu and footer */
+#MainMenu,
+footer {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+/* Remove empty space created by Streamlit header */
+[data-testid="stAppViewContainer"] {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Main content area */
+section[data-testid="stMain"] {
+    padding-top: 0 !important;
+}
+
+/* Main container */
+.main .block-container {
+    padding-top: 2rem !important;
+}
+
+
+/* ============================================================
+   MAIN APP
    ============================================================ */
 
 .stApp {
-    background: var(--bg) !important;
-    color: var(--text) !important;
+    background: var(--bg);
+    color: var(--text);
 }
+
 
 .block-container {
     max-width: 1180px;
     padding-top: 2rem;
     padding-bottom: 4rem;
-}
-
-/* Hide Streamlit default chrome */
-#MainMenu,
-footer {
-    visibility: hidden;
-}
-
-
-/* ============================================================
-   GLOBAL STREAMLIT TEXT VISIBILITY
-   ============================================================ */
-
-/* Keep native Streamlit text readable on light background */
-.stApp,
-.stApp p,
-.stApp span,
-.stApp label,
-.stApp div {
-    color: var(--text);
-}
-
-/* Don't override icons/SVG rendering */
-.stApp svg {
-    color: inherit;
 }
 
 
@@ -75,6 +91,7 @@ footer {
     margin-bottom: 12px;
 }
 
+
 .hero-icon {
     width: 54px;
     height: 54px;
@@ -82,31 +99,35 @@ footer {
     place-items: center;
     border-radius: 16px;
     background: #e9e9ff;
-    color: var(--accent) !important;
+    color: var(--accent);
     font-size: 28px;
     font-weight: 700;
     flex: 0 0 auto;
 }
 
+
 .hero h1 {
     margin: 2px 0 4px;
     font-size: 30px;
     letter-spacing: -0.8px;
-    color: var(--text) !important;
+    color: var(--text);
 }
+
 
 .hero p {
     margin: 0;
-    color: var(--muted) !important;
+    color: var(--muted);
     font-size: 14px;
 }
 
+
 .eyebrow {
-    color: var(--accent) !important;
+    color: var(--accent);
     font-size: 10px;
     font-weight: 800;
     letter-spacing: 1.5px;
 }
+
 
 .feature-row {
     display: flex;
@@ -115,12 +136,13 @@ footer {
     margin: 0 2px 28px;
 }
 
+
 .feature-row span {
     padding: 7px 11px;
     border: 1px solid var(--border);
     border-radius: 999px;
     background: rgba(255,255,255,.7);
-    color: var(--muted) !important;
+    color: var(--muted);
     font-size: 12px;
 }
 
@@ -136,9 +158,11 @@ footer {
     margin: 26px 0 12px;
 }
 
+
 .section-heading.compact {
     margin-top: 18px;
 }
+
 
 .section-heading > div {
     display: flex;
@@ -146,117 +170,62 @@ footer {
     gap: 9px;
 }
 
+
 .section-kicker {
-    color: var(--accent) !important;
+    color: var(--accent);
     font-size: 11px;
     font-weight: 800;
     letter-spacing: 1px;
 }
 
+
 .section-title {
-    color: var(--text) !important;
+    color: var(--text);
     font-size: 19px;
     font-weight: 750;
 }
 
+
 .section-hint {
-    color: var(--muted) !important;
+    color: var(--muted);
     font-size: 11px;
 }
 
+
 .subsection-title {
     margin: 20px 0 9px;
-    color: var(--text) !important;
+    color: var(--text);
     font-weight: 700;
     font-size: 14px;
 }
 
 
 /* ============================================================
-   FILE UPLOADER — IMPORTANT VISIBILITY FIX
+   UPLOAD
    ============================================================ */
 
 [data-testid="stFileUploader"] {
-    border: 1.5px dashed #cdd2e8 !important;
-    border-radius: 18px !important;
-    background: #ffffff !important;
-    padding: 6px !important;
+    border: 1.5px dashed #cdd2e8;
+    border-radius: 18px;
+    background: #fbfbff;
+    padding: 6px;
 }
 
-/* Main uploader section */
+
 [data-testid="stFileUploader"] section {
-    border: 0 !important;
-    background: #ffffff !important;
+    border: 0;
 }
 
-/* Dropzone */
+
 [data-testid="stFileUploaderDropzone"] {
-    background: #ffffff !important;
-    border: 0 !important;
-}
-
-/* Dropzone instructions */
-[data-testid="stFileUploaderDropzoneInstructions"] {
-    color: #475569 !important;
-}
-
-/* Dropzone instruction text */
-[data-testid="stFileUploaderDropzoneInstructions"] span,
-[data-testid="stFileUploaderDropzoneInstructions"] small,
-[data-testid="stFileUploaderDropzoneInstructions"] div {
-    color: #475569 !important;
-}
-
-/* Upload icon */
-[data-testid="stFileUploaderDropzoneInstructions"] svg {
-    color: var(--accent) !important;
-    stroke: var(--accent) !important;
-}
-
-/* Browse files button */
-[data-testid="stFileUploader"] button {
-    background: #f8fafc !important;
-    color: #1e293b !important;
-    border: 1px solid #e2e8f0 !important;
-    border-radius: 9px !important;
-}
-
-/* Browse button hover */
-[data-testid="stFileUploader"] button:hover {
-    background: #eef2ff !important;
-    color: #3730a3 !important;
-    border-color: #c7d2fe !important;
-}
-
-/* Uploaded file name */
-[data-testid="stFileUploader"] [data-testid="stFileUploaderFileName"],
-[data-testid="stFileUploader"] [data-testid="stFileUploaderFileName"] span {
-    color: #1e293b !important;
-}
-
-/* Uploaded file information */
-[data-testid="stFileUploader"] small {
-    color: #64748b !important;
-}
-
-/* Remove X button */
-[data-testid="stFileUploader"] button[aria-label*="Remove"],
-[data-testid="stFileUploader"] button[aria-label*="Delete"] {
-    color: #475569 !important;
     background: transparent !important;
-    border: none !important;
-}
-
-[data-testid="stFileUploader"] button[aria-label*="Remove"]:hover,
-[data-testid="stFileUploader"] button[aria-label*="Delete"]:hover {
-    color: #c43d4d !important;
-    background: #fff1f2 !important;
 }
 
 
-/* ============================================================
-   FILE BANNER
-   ============================================================ */
+[data-testid="stFileUploaderDropzoneInstructions"] svg {
+    color: var(--accent);
+}
+
 
 .file-banner {
     display: flex;
@@ -270,6 +239,7 @@ footer {
     box-shadow: 0 3px 15px rgba(25,36,62,.04);
 }
 
+
 .file-symbol {
     width: 38px;
     height: 38px;
@@ -277,9 +247,10 @@ footer {
     place-items: center;
     border-radius: 10px;
     background: #eeeefe;
-    color: var(--accent) !important;
+    color: var(--accent);
     font-size: 20px;
 }
+
 
 .file-details {
     flex: 1;
@@ -288,21 +259,24 @@ footer {
     gap: 2px;
 }
 
+
 .file-details strong {
-    color: var(--text) !important;
+    color: var(--text);
     font-size: 13px;
 }
 
+
 .file-details span {
-    color: var(--muted) !important;
+    color: var(--muted);
     font-size: 11px;
 }
+
 
 .file-status {
     padding: 5px 9px;
     border-radius: 999px;
     background: #e8f7f0;
-    color: var(--success) !important;
+    color: var(--success);
     font-size: 9px;
     font-weight: 800;
     letter-spacing: .8px;
@@ -314,40 +288,18 @@ footer {
    ============================================================ */
 
 .stButton > button {
-    border-radius: 12px !important;
+    border-radius: 12px;
     min-height: 46px;
     font-weight: 700;
     transition: transform .15s ease, box-shadow .15s ease;
 }
 
-/* Primary Analyze button */
-.stButton > button[kind="primary"] {
-    background: var(--accent) !important;
-    color: #ffffff !important;
-    border: 1px solid var(--accent) !important;
-}
-
-.stButton > button[kind="primary"]:hover {
-    background: var(--accent-dark) !important;
-    color: #ffffff !important;
-}
-
-/* Secondary buttons */
-.stButton > button[kind="secondary"] {
-    background: #ffffff !important;
-    color: #1e293b !important;
-    border: 1px solid #e2e8f0 !important;
-}
-
-.stButton > button[kind="secondary"]:hover {
-    background: #f8fafc !important;
-    color: #1e293b !important;
-}
 
 .stButton > button:hover {
     transform: translateY(-1px);
     box-shadow: 0 7px 20px rgba(91,92,226,.18);
 }
+
 
 .analyze-wrap {
     margin-top: 16px;
@@ -370,6 +322,7 @@ footer {
     box-shadow: var(--shadow);
 }
 
+
 .metric-icon {
     width: 38px;
     height: 38px;
@@ -377,33 +330,38 @@ footer {
     place-items: center;
     border-radius: 11px;
     background: #f0f0ff;
-    color: var(--accent) !important;
+    color: var(--accent);
     font-size: 17px;
     flex: 0 0 auto;
 }
 
+
 .metric-card.warning .metric-icon {
     background: #fff3df;
-    color: var(--warning) !important;
+    color: var(--warning);
 }
+
 
 .metric-card.success .metric-icon {
     background: #e9f7f1;
-    color: var(--success) !important;
+    color: var(--success);
 }
+
 
 .metric-content {
     min-width: 0;
 }
 
+
 .metric-label {
-    color: var(--muted) !important;
+    color: var(--muted);
     font-size: 11px;
     margin-bottom: 4px;
 }
 
+
 .metric-value {
-    color: var(--text) !important;
+    color: var(--text);
     font-size: 22px;
     font-weight: 800;
     letter-spacing: -.3px;
@@ -411,20 +369,19 @@ footer {
 
 
 /* ============================================================
-   DATAFRAME
+   TABLES / DATAFRAME
    ============================================================ */
 
 [data-testid="stDataFrame"] {
-    border: 1px solid var(--border) !important;
-    border-radius: 14px !important;
+    border: 1px solid var(--border);
+    border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 3px 16px rgba(25,36,62,.04);
-    background: #ffffff !important;
 }
 
 
 /* ============================================================
-   ISSUE CARDS
+   ISSUES
    ============================================================ */
 
 .issue-card {
@@ -437,17 +394,21 @@ footer {
     box-shadow: 0 3px 15px rgba(25,36,62,.04);
 }
 
+
 .issue-card.high {
     border-left-color: var(--danger);
 }
+
 
 .issue-card.medium {
     border-left-color: var(--warning);
 }
 
+
 .issue-card.low {
     border-left-color: #6d76b7;
 }
+
 
 .issue-top {
     display: flex;
@@ -456,18 +417,21 @@ footer {
     gap: 12px;
 }
 
+
 .issue-number {
-    color: #9aa1b3 !important;
+    color: #9aa1b3;
     font-size: 11px;
     font-weight: 700;
     margin-right: 7px;
 }
 
+
 .issue-title {
-    color: var(--text) !important;
+    color: var(--text);
     font-size: 14px;
     font-weight: 750;
 }
+
 
 .severity-badge {
     padding: 5px 9px;
@@ -477,20 +441,24 @@ footer {
     letter-spacing: .7px;
 }
 
+
 .severity-badge.high {
-    color: var(--danger) !important;
+    color: var(--danger);
     background: #fdecef;
 }
 
+
 .severity-badge.medium {
-    color: var(--warning) !important;
+    color: var(--warning);
     background: #fff2dc;
 }
 
+
 .severity-badge.low {
-    color: #5c67a7 !important;
+    color: #5c67a7;
     background: #eef0fb;
 }
+
 
 .issue-grid {
     display: grid;
@@ -501,20 +469,23 @@ footer {
     border-top: 1px solid #eef0f5;
 }
 
+
 .issue-grid > div {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
+
 .issue-grid span:last-child {
-    color: #4f596c !important;
+    color: #4f596c;
     font-size: 12px;
     word-break: break-word;
 }
 
+
 .issue-key {
-    color: #8a91a2 !important;
+    color: #8a91a2;
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: .7px;
@@ -539,11 +510,13 @@ footer {
     text-align: left;
 }
 
+
 .empty-state {
     display: block;
     text-align: center;
     margin-top: 16px;
 }
+
 
 .empty-icon,
 .success-icon {
@@ -554,22 +527,24 @@ footer {
     margin: 0 auto 8px;
     border-radius: 12px;
     background: #eeeefe;
-    color: var(--accent) !important;
+    color: var(--accent);
     font-size: 20px;
     font-weight: 800;
 }
 
+
 .empty-state h3 {
     margin: 0 0 4px;
     font-size: 16px;
-    color: var(--text) !important;
 }
+
 
 .empty-state p {
     margin: 0;
-    color: var(--muted) !important;
+    color: var(--muted);
     font-size: 12px;
 }
+
 
 .success-state {
     margin: 10px 0;
@@ -577,35 +552,62 @@ footer {
     border-color: #dcefe7;
 }
 
+
 .success-state .success-icon {
     margin: 0;
     background: #e6f6ef;
-    color: var(--success) !important;
+    color: var(--success);
 }
+
 
 .success-state strong,
 .success-state span {
     display: block;
 }
 
+
 .success-state strong {
     font-size: 13px;
-    color: var(--text) !important;
 }
 
+
 .success-state span {
-    color: var(--muted) !important;
+    color: var(--muted);
     font-size: 11px;
     margin-top: 3px;
 }
 
 
 /* ============================================================
-   STREAMLIT ALERTS
+   REPORT / ALERTS
    ============================================================ */
 
 [data-testid="stAlert"] {
-    border-radius: 13px !important;
+    border-radius: 13px;
+}
+
+
+/* ============================================================
+   STREAMLIT INPUT / FILE UPLOADER TEXT
+   Prevent black text on dark Streamlit components
+   ============================================================ */
+
+[data-testid="stFileUploader"] button {
+    color: var(--text) !important;
+    background: #ffffff !important;
+    border: 1px solid var(--border) !important;
+}
+
+
+[data-testid="stFileUploader"] button:hover {
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    background: #f8f8ff !important;
+}
+
+
+[data-testid="stFileUploader"] small {
+    color: var(--muted) !important;
 }
 
 
@@ -614,51 +616,35 @@ footer {
    ============================================================ */
 
 [data-testid="stExpander"] {
-    background: #ffffff !important;
     border: 1px solid var(--border) !important;
     border-radius: 12px !important;
+    background: var(--surface) !important;
 }
+
 
 [data-testid="stExpander"] summary {
     color: var(--text) !important;
 }
 
-[data-testid="stExpander"] summary p,
-[data-testid="stExpander"] summary span {
-    color: var(--text) !important;
+
+[data-testid="stExpander"] summary:hover {
+    color: var(--accent) !important;
 }
 
 
 /* ============================================================
-   INPUTS / SELECTS
+   TEXT / MARKDOWN
    ============================================================ */
 
-[data-baseweb="select"] > div {
-    background: #ffffff !important;
-    color: var(--text) !important;
-    border-color: var(--border) !important;
+.stMarkdown,
+.stMarkdown p,
+.stMarkdown span {
+    color: var(--text);
 }
 
-[data-baseweb="input"] > div {
-    background: #ffffff !important;
-    color: var(--text) !important;
-}
-
-[data-baseweb="input"] input {
-    color: var(--text) !important;
-}
-
-
-/* ============================================================
-   CAPTIONS / MARKDOWN
-   ============================================================ */
 
 .stCaption {
     color: var(--muted) !important;
-}
-
-.stMarkdown {
-    color: var(--text);
 }
 
 
